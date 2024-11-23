@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Premier Site Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Consulting Touré</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="accueil">
+            <h2>À propos de moi</h2>
+            <p>Salut ! Je suis professeur en comptabilité et finance et je découvre la création de sites web.</p>
+        </section>
+        <section id="services">
+            <h2>Mes Services</h2>
+            <ul>
+              <li>Création de sites web personnalisés</li>
+  <li>Gestion de contenu</li>
+  <li>Support technique</li>
+</ul>
+
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contactez-moi</h2>
+            <form>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Boubacar Hamada Touré. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
+<section id="social">
+  <h2>Suivez-moi</h2>
+  <a href="https://facebook.com" target="_blank">Facebook</a> |
+  <a href="https://twitter.com" target="_blank">Twitter</a> |
+  <a href="https://instagram.com" target="_blank">Instagram</a>
+</section>
+
+<section id="gallery">
+  <h2>Galerie</h2>
+  <div style="display: flex; gap: 10px;">
+    <img src="image1.jpg" alt="Image 1" style="width: 30%;">
+    <img src="image2.jpg" alt="Image 2" style="width: 30%;">
+    <img src="image3.jpg" alt="Image 3" style="width: 30%;">
+  </div>
+</section>
+
+<button onclick="changeColor()">Changer la couleur</button>
+
+<script>
+  function changeColor() {
+    document.body.style.backgroundColor = 
+      document.body.style.backgroundColor === 'lightblue' ? 'white' : 'lightblue';
+  }
+</script>
+
+<h2 id="animatedText">Bienvenue sur mon site !</h2>
+
+
+
